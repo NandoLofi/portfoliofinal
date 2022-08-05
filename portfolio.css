@@ -1,3 +1,20 @@
 body {
-    background-color: #e3a72f;
+    background: linear-gradient(#2d545e, #e1b382);
+    height: 100vh;
+}
+.aboutme_container {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.site_container {
+    margin: 50px auto;
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    width: 75%;
 }
