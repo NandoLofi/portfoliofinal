@@ -67,9 +67,27 @@ li > a {
 }
 .button__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
 }
+.sitebtn {
+    color: #494949;
+    text-decoration: none;
+    background: #1BA098;
+    padding: 20px;
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sitebtn:hover {
+    color: #ffffff;
+  background: #DEB992;
+  border-color: #DEB992;
+  transition: all 0.4s ease 0s;
+}
+
 .doublebutton__container {
     display: flex;
     margin: 5px;
