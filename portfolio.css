@@ -57,7 +57,7 @@ li > a {
     max-width: 100%;
     max-height: 100%;
 }
-.image{
+.image, .site__link{
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;
@@ -67,8 +67,9 @@ li > a {
 }
 .button__container {
     display: flex;
+    padding-top: 20px;
+    margin-left: 115px;
     justify-content: space-between;
-    padding-top: 10px;
 }
 .sitebtn {
     color: #494949;
