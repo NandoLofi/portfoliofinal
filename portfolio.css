@@ -53,9 +53,7 @@ li > a {
 }
 .site__container {
     display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    max-height: 100%;
+    justify-content: space-evenly;
 }
 .image, .site__link{
     object-fit: contain;
@@ -67,10 +65,10 @@ li > a {
 }
 .button__container {
     display: flex;
-    padding-top: 20px;
-    margin-left: 115px;
-    justify-content: space-between;
 }
+
+
+
 .sitebtn {
     color: #494949;
     text-decoration: none;
@@ -89,8 +87,3 @@ li > a {
   transition: all 0.4s ease 0s;
 }
 
-.doublebutton__container {
-    display: flex;
-    margin: 5px;
-    ;
-}
