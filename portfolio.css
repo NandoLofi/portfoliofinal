@@ -59,17 +59,27 @@ li > a {
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;
-    width: 400px;
-    height: 300px;    
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;   
+    border-radius: 12px; 
 }
-.button__container {
+.site1 > .button1 {
+    margin-left: 30%;
+}
+/* .button__container {
     display: flex;
+    padding-top: 10px;
+    max-width: 100%;
+    max-height: 100%;
 }
+.button2 {
+    margin-left: 295px;
+}
+.button3{
+    margin: 0 190px 0 auto;
+} */
 
-
-
-.sitebtn {
+.button {
     color: #494949;
     text-decoration: none;
     background: #1BA098;
@@ -80,7 +90,8 @@ li > a {
     font-weight: bold;
     cursor: pointer;
 }
-.sitebtn:hover {
+
+.button:hover {
     color: #ffffff;
   background: #DEB992;
   border-color: #DEB992;
