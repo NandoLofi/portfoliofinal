@@ -147,3 +147,32 @@ li > a {
         margin-bottom: 50px;
     }
 }
+@media (max-width: 642px) {
+    .aboutme__container {
+        height: 200px;
+    }
+}
+@media (max-width: 390px) {
+    .aboutme__container{
+        height: 350px;
+    }
+    ul {
+        margin-left: 20%;
+    }
+}
+@media (max-width: 412px) {
+    .aboutme__container{
+        height: 350px;
+    }
+    ul {
+        margin-left: 20%;
+    }
+}
+@media (max-width: 414px) {
+    .aboutme__container{
+        height: 350px;
+    }
+    ul {
+        margin-left: 20%;
+    }
+}
