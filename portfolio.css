@@ -91,7 +91,7 @@ li > a {
     background: #1BA098;
     padding: 20px;
     width: 120px;
-    height: 50px;
+    height: 70px;
     font-size: 12px;
     font-weight: bold;
     cursor: pointer;
@@ -142,17 +142,40 @@ li > a {
     }
   
 }
-@media (max-width: 862px) {
+
+
+@media screen and (max-width: 862px) {
     .aboutme__container{
         margin-bottom: 50px;
     }
 }
-@media (max-width: 642px) {
+@media screen and (max-width: 862px) {
+    .aboutme__container{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 647px) {
     .aboutme__container {
         height: 200px;
     }
 }
-@media (max-width: 390px) {
+@media screen and (max-width: 643px) {
+    .aboutme__container{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 500px) {
+    .aboutme__container{
+        margin-bottom: 70px;
+    }
+}
+@media screen and (min-width: 450px) {
+    .aboutme__container{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width: 390px) {
     .aboutme__container{
         height: 350px;
     }
@@ -160,7 +183,7 @@ li > a {
         margin-left: 20%;
     }
 }
-@media (max-width: 412px) {
+@media screen and (max-width: 412px) {
     .aboutme__container{
         height: 350px;
     }
@@ -168,7 +191,7 @@ li > a {
         margin-left: 20%;
     }
 }
-@media (max-width: 414px) {
+@media screen and (max-width: 414px) {
     .aboutme__container{
         height: 350px;
     }
