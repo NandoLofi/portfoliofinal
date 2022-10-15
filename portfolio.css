@@ -142,8 +142,12 @@ li > a {
     }
   
 }
-
-
+@media screen and (min-width: 1920px){
+    .aboutme__container {
+        margin-left: 25%;
+        height: 150px;
+    }
+}
 @media screen and (max-width: 862px) {
     .aboutme__container{
         margin-bottom: 50px;
